@@ -1,0 +1,16 @@
+# !! File must end with empty line !!
+dependencies:
+- alias: expose
+  name: exposecontroller
+  repository: https://aliacs-app-catalog.oss-cn-hangzhou.aliyuncs.com/charts-incubator/
+  version: 2.3.82
+- alias: cleanup
+  name: exposecontroller
+  repository: https://aliacs-app-catalog.oss-cn-hangzhou.aliyuncs.com/charts-incubator/
+  version: 2.3.82
+
+  # !! "alias: preview" must be last entry in dependencies array !!
+  # !! Place custom dependencies above !!
+- alias: preview
+  name: jenkinsx-demo
+  repository: file://../jenkinsx-demo
